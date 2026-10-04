@@ -1,0 +1,56 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# Model checkpoints / trained weights
+*.pth
+*.pt
+*.ckpt
+checkpoints/
+checkpoints_resnet18/
+checkpoints_resnet34/
+checkpoints_hybrid/
+
+# Dataset
+train/
+test/
+train.zip
+test.zip
+train_labels.csv
+sample_submission.csv
+*.tif
+*.tiff
+
+# Kaggle credentials
+kaggle.json
+.kaggle/
+
+# Kaggle / dataset cache
+.cache/
+kagglehub/
+
+# Large archives
+*.zip
+*.rar
+*.7z
+*.tar
+*.gz
+
+# Operating system files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE
+.vscode/
+.idea/
+
+# Temporary files
+*.tmp
+*.temp
+*.log
